@@ -4,6 +4,10 @@ This repository contains the public artifacts used for my master's thesis projec
 
 The goal of the project was to deploy and evaluate two approaches for personalizing non-persistent NixOS systems—**pre-boot** (build-time integration) and **post-boot** (runtime application).
 
+These source files, along with the state capture outputs and the state comparison results presented in @results are also published and archived on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15463902.svg)](https://doi.org/10.5281/zenodo.15463902)
+
 ---
 
 ## Structure
@@ -31,10 +35,4 @@ The scripts/ directory contains Python scripts used to:
 - Compare two snapshots at a high level.
 - Compare symlinks in two snapshots.
 - Compare Nix stores in two snapshots.
-
-## State capture and comparison results
-
-Due to large file sizes, the raw state capture outputs and the state comparison results are hoste separately on [mega.nz, accessible here](https://mega.nz/folder/s8YyXZBY#EwQGJrcQ5nPYZ8jkugyObw).
-
-
 
